@@ -1,0 +1,77 @@
+header h5{
+	width:100%;
+	text-align: center;
+	line-height: 2rem;
+	color:#fff;
+}
+main{
+	background: #ccc;
+	position: relative;
+}
+main .box{
+	width:90%;
+	height:80%;
+	background: #fff;
+	position: absolute;
+	top:10%;
+	left:5%;
+	border-radius: 10px;
+}
+main .box .top{
+	width:100%;
+	height:35%;
+	border-bottom:1px solid #ccc;
+	position: relative;
+}
+main .box .top img{
+	width:4rem;
+	height:2rem;
+	position: absolute;;
+	left:37%;
+	top:20%;
+}
+main .box .top p{
+	font-size:.9rem;
+	text-align: center;
+	padding-top:25%;
+}
+main .box .bottom{
+	width:100%;
+	height:65%;
+	position: relative;
+}
+main .box .bottom input{
+	width:80%;
+	height: 3rem;
+	margin-left: 10%;
+	border:none;
+	outline:none;
+	border-bottom: 1px solid #ccc;
+	padding-left: 2rem;
+	margin-top:.2rem;
+}
+main .box .bottom img{
+	width:.7rem;
+	height: 1.1rem;
+}
+main .box .bottom .one{
+	position: absolute;
+	top:1rem;
+	left:15%;
+}
+main .box .bottom .two{
+	position: absolute;
+	top:3.8rem;
+	left:15%;
+}
+main .box .bottom button{
+	width:80%;
+	height: 2rem;
+	margin-left: 10%;
+	border:none;
+	outline:none;
+	background: #2fba77;
+	margin-top:1rem;
+	border-radius: 10px;
+	color:#fff;
+}

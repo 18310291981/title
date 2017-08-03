@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration:none;
+	box-sizing:border-box;
+}
+html{
+	font-size:62.5%;
+	user-selector:none;
+}
+html,body,.wrap{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+%qjz{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.wrap{
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	background:#fff;
+}
+header{
+	width:100%;
+	height:2rem;
+	background:#333;
+	display:flex;
+	border-bottom:1px solid #e5e5e5;
+}
+main{
+	width:100%;
+	flex:1;
+	overflow:hidden;
+	overflow:scroll;
+	overflow-X:hidden;
+	
+}	
